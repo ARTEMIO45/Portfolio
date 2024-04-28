@@ -1,17 +1,17 @@
 const imageSets = [
     [
-        "Images/exp_app_images/Home_page.png",
-        "Images/exp_app_images/Form_layout.png",
-        "Images/exp_app_images/Form_Filled.png",
-        "Images/exp_app_images/List_items.png"
+        "./assets/images/exp_app_images/Home_page.png",
+        "./assets/images/exp_app_images/Form_layout.png",
+        "./assets/images/exp_app_images/Form_Filled.png",
+        "./assets/images/exp_app_images/List_items.png"
     ],
     [
-        "Images/auto-parts-project/image_1.png",
-        "Images/auto-parts-project/image_2.png",
-        "Images/auto-parts-project/image_3.png",
-        "Images/auto-parts-project/image_4.png",
-        "Images/auto-parts-project/image_5.png",
-        "Images/auto-parts-project/image_6.png"
+        "./assets/images/auto-parts-project/image_1.png",
+        "./assets/images/auto-parts-project/image_2.png",
+        "./assets/images/auto-parts-project/image_3.png",
+        "./assets/images/auto-parts-project/image_4.png",
+        "./assets/images/auto-parts-project/image_5.png",
+        "./assets/images/auto-parts-project/image_6.png"
     ]
 
     // Add more arrays as needed for additional projects
