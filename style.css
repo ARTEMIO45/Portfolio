@@ -7,7 +7,8 @@
   src: url(Roboto-LightItalic.ttf);
 }
 body {
-  background-color: #f4f1de;
+  background-color: white;
+  /* background-color: #f4f1de; */
   font-family: roboto; /* Assuming you've defined Roboto font */
 }
 .aboutContainer {
@@ -98,7 +99,7 @@ body {
   font-size: 2em;
   margin-top: 50px;
   padding-bottom: 10px;
-  background-color: red;
+  /* background-color: red; */
   border-bottom: 2px solid #81b29a;
   /* height: 150px; */
 
@@ -119,7 +120,7 @@ body {
 }
  .project-container {
  display: flex;
- background-color: #81b29a; 
+ /* background-color: #81b29a;  */
 }
 .projectImageContainer {
   display: flex;
@@ -168,27 +169,34 @@ hr{
   width: 5px; /* Adjust the width as needed */
 
 }
-.unorder-list{
-  list-style-type: none;
+.values-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
-.unorder-list li{
-  padding-left: 20px;
-  line-height: 1.5;
+.learning-div{
 }
-
-.con-image{
-background: url("./Images/learning.png") no-repeat left center;
-background-size: 100px;
-}
-.hard-image{
+.hardworking-div{
 
 }
-.curios-image{
-
+.values-section img{
+  margin: 0 10px;
+  height: 70px;
+  padding-top: 10px;
+  width: 70px;
+  
 }
-.kindness-image{
-
+.values-section > div {
+  /* margin: 10px; Adjust the margin as needed for spacing between items */
+  text-align: center; /* Center the text within each div */
 }
-.integrity-image{
-
+.values-section p{
+  max-width: 300px;
+  word-wrap:break-word;
+  padding: 10px;
+}
+.values-title#project-hdr{
+  margin-left: 100px;
 }
