@@ -94,10 +94,13 @@ body {
   margin-top: 20px;
 }
 #project-hdr {
+
   font-size: 2em;
-  /* background-color: #3d405b; */
-  border-bottom: 5px solid #81b29a;
-  height: 150px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  background-color: red;
+  border-bottom: 2px solid #81b29a;
+  /* height: 150px; */
 
   margin-left: 36%;
   margin-right: 2%;
@@ -112,11 +115,11 @@ body {
   background-color: #81b29a;
   border: none;
   border-radius: 10px;
-  margin-top: 10px;
+
 }
  .project-container {
  display: flex;
- /* background-color: #81b29a; */
+ background-color: #81b29a; 
 }
 .projectImageContainer {
   display: flex;
@@ -129,6 +132,8 @@ max-width: 500px;
 } 
 
 .project-detail-container{
+  margin-top: 0px;
+  margin-bottom: 50px;
   flex: 1;
   padding: 20px;
 }
@@ -161,5 +166,29 @@ hr{
 .project-container:nth-child(2) .exp-img img {
   /* Your specific styles for the images in the second project */
   width: 5px; /* Adjust the width as needed */
+
+}
+.unorder-list{
+  list-style-type: none;
+}
+.unorder-list li{
+  padding-left: 20px;
+  line-height: 1.5;
+}
+
+.con-image{
+background: url("./Images/learning.png") no-repeat left center;
+background-size: 100px;
+}
+.hard-image{
+
+}
+.curios-image{
+
+}
+.kindness-image{
+
+}
+.integrity-image{
 
 }
