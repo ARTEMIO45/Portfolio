@@ -7,8 +7,7 @@
   src: url(Roboto-LightItalic.ttf);
 }
 body {
-  background-color: white;
-  /* background-color: #f4f1de; */
+  background-color: #f4f1de;
   font-family: roboto; /* Assuming you've defined Roboto font */
 }
 .aboutContainer {
